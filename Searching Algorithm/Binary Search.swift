@@ -23,6 +23,6 @@ func searchIndexAtValue<T: Comparable>(_ array: [T], _ target: T) -> Int {
 }
 
 let allValues: [Int] = [0, 2, 3, 4, 10, 40, 44]
-let indexAtTarget: Int = searchIndexAtValue(allValues, 10)
+let indexAtTarget: Int = searchIndexAtValue(allValues, 10 )
 print("\(allValues)")
 print("Index of value: \(indexAtTarget == -1 ? "No index" : indexAtTarget.description)")
