@@ -1,4 +1,5 @@
 #Binary sort with Recursive way
+#it is used to find the sortest list element by recursion
 
 def binarySearch (arr, l, r, x): 
     if r >= l: 
