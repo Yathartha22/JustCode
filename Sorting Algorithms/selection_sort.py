@@ -1,4 +1,5 @@
 # Selection_Sort 
+#in this type of sorting we sort the length of list
 import sys 
 A = [64, 25, 12, 22, 11] 
  
