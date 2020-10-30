@@ -4,9 +4,9 @@ using namespace std;
 // A structure to represent a job
 struct Job
 {
-char id; // Job Id
-int dead; // Deadline of job
-int profit; // Profit if job is over before or on deadline
+      char id; // Job Id
+      int dead; // Deadline of job
+      int profit; // Profit if job is over before or on deadline
 };
 // This function is used for sorting all jobs according to profit
 bool comparison(Job a, Job b)
